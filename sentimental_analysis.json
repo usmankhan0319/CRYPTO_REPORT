@@ -1,0 +1,33 @@
+{
+    "Sentimental_Analysis_Report": {
+        "Top_Stories": [
+            {
+                "Title": "Turkish Conglomerate $1.6 Billion Investment Ignites El Salvador's Bitcoin City Plan",
+                "Text": "El Salvador secures $1.6 billion investment from Turkey's Yilport Holding for Bitcoin City project."
+            },
+            {
+                "Title": "Runes protocol struggles with fee revenue as Bitcoin's conservative framework limits growth",
+                "Text": "Runes protocol faces limitations due to Bitcoin infrastructure, affecting fee revenue."
+            },
+            {
+                "Title": "Bitcoin Can Resist the \u2018Wrath of God' Says Tether CEO Paolo Ardoino \u2013 Here's What He Means",
+                "Text": "Tether CEO believes geopolitical tensions will increase demand for scarce assets like Bitcoin."
+            }
+        ],
+        "Latest_Stories": [
+            {
+                "Title": "Bitcoin Likely to Fall by $5K Than Rise by Same Amount: Analyst",
+                "Text": "Analyst predicts Bitcoin market to fall due to seller dominance."
+            },
+            {
+                "Title": "Aurora Brings Bitcoin Data to NEAR and Prepares to Bridge BTC",
+                "Text": "Aurora Labs releases Bitcoin Light Client and Relayer to bring Bitcoin closer to multi-chain landscape."
+            },
+            {
+                "Title": "$600 Million in Bitcoin Disappear as Whales Go Bearish",
+                "Text": "Bitcoin faces pressure around $59,000 as whales turn bearish."
+            }
+        ],
+        "Summary": "Important stories include a significant investment in El Salvador's Bitcoin City project, challenges faced by Runes protocol due to Bitcoin's infrastructure, and Tether CEO's positive view on Bitcoin. Overall sentiment seems positive with developments around investments and technology advancements."
+    }
+}

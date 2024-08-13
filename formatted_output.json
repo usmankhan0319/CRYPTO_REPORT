@@ -1,0 +1,25 @@
+{
+    "Fundamental Analysis Report": {
+        "values": {
+            "symbol": "BTCUSD",
+            "name": "Bitcoin USD",
+            "price": 59190.03,
+            "changesPercentage": -0.28309,
+            "change": -168.036,
+            "dayLow": 58402.01,
+            "dayHigh": 60000,
+            "yearHigh": 73750.07,
+            "yearLow": 24930.297,
+            "marketCap": 1168365971017.08,
+            "priceAvg50": 61827.68,
+            "priceAvg200": 62082.08,
+            "volume": 35850670091.528824,
+            "avgVolume": 29738009593,
+            "open": 59358.066,
+            "previousClose": 59358.066,
+            "sharesOutstanding": 19739236,
+            "timestamp": 1723556621
+        },
+        "Summary": "Based on the data provided, Bitcoin (BTCUSD) is currently undervalued. The price of $59,190.03 is below the year high of $73,750.07 and the average price over the last 200 days of $62,082.08. This suggests there may be room for growth in the price of Bitcoin."
+    }
+}

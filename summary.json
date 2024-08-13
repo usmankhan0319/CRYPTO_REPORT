@@ -1,0 +1,81 @@
+{
+    "Fundamental Analysis Report": {
+        "values": {
+            "symbol": "BTCUSD",
+            "name": "Bitcoin USD",
+            "price": 59190.03,
+            "changesPercentage": -0.28309,
+            "change": -168.036,
+            "dayLow": 58402.01,
+            "dayHigh": 60000,
+            "yearHigh": 73750.07,
+            "yearLow": 24930.297,
+            "marketCap": 1168365971017.08,
+            "priceAvg50": 61827.68,
+            "priceAvg200": 62082.08,
+            "volume": 35850670091.528824,
+            "avgVolume": 29738009593,
+            "open": 59358.066,
+            "previousClose": 59358.066,
+            "sharesOutstanding": 19739236,
+            "timestamp": 1723556621
+        },
+        "Summary": "Based on the data provided, Bitcoin (BTCUSD) is currently undervalued. The price of $59,190.03 is below the year high of $73,750.07 and the average price over the last 200 days of $62,082.08. This suggests there may be room for growth in the price of Bitcoin."
+    },
+    "Technical_Analysis_Report": {
+        "Current_Trend": "The market is in a downtrend.",
+        "Trend_Strength_and_Potential_Reversal_Points": "The downtrend shows signs of weakening with potential reversal near August 8th.",
+        "Candlestick_Patterns": "Bullish hammer pattern observed around August 8th indicating a potential reversal.",
+        "Volume_Analysis": "A significant volume spike on August 13th confirms the price movement strength.",
+        "Unusual_Volume_Spikes": "A notable volume spike on August 13th suggests strong buying pressure.",
+        "Insights_on_Potential_Bullish_or_Bearish_Signals": "The appearance of a bullish hammer suggests potential buying opportunities.",
+        "Risk_Assessment": ":\nConsider setting stop-loss just below $55000 to manage downside risk.",
+        "Technical_Indicator:": "Buy."
+    },
+    "Sentimental_Analysis_Report": {
+        "Top_Stories": [
+            {
+                "Title": "Turkish Conglomerate $1.6 Billion Investment Ignites El Salvador's Bitcoin City Plan",
+                "Text": "El Salvador secures $1.6 billion investment from Turkey's Yilport Holding for Bitcoin City project."
+            },
+            {
+                "Title": "Runes protocol struggles with fee revenue as Bitcoin's conservative framework limits growth",
+                "Text": "Runes protocol faces limitations due to Bitcoin infrastructure, affecting fee revenue."
+            },
+            {
+                "Title": "Bitcoin Can Resist the \u2018Wrath of God' Says Tether CEO Paolo Ardoino \u2013 Here's What He Means",
+                "Text": "Tether CEO believes geopolitical tensions will increase demand for scarce assets like Bitcoin."
+            }
+        ],
+        "Latest_Stories": [
+            {
+                "Title": "Bitcoin Likely to Fall by $5K Than Rise by Same Amount: Analyst",
+                "Text": "Analyst predicts Bitcoin market to fall due to seller dominance."
+            },
+            {
+                "Title": "Aurora Brings Bitcoin Data to NEAR and Prepares to Bridge BTC",
+                "Text": "Aurora Labs releases Bitcoin Light Client and Relayer to bring Bitcoin closer to multi-chain landscape."
+            },
+            {
+                "Title": "$600 Million in Bitcoin Disappear as Whales Go Bearish",
+                "Text": "Bitcoin faces pressure around $59,000 as whales turn bearish."
+            }
+        ],
+        "Summary": "Important stories include a significant investment in El Salvador's Bitcoin City project, challenges faced by Runes protocol due to Bitcoin's infrastructure, and Tether CEO's positive view on Bitcoin. Overall sentiment seems positive with developments around investments and technology advancements."
+    },
+    "Moving_Average_Analysis_Report": {
+        "Summary": "The chart depicts the closing prices of BTC/USD and its 5-day Simple Moving Average (SMA) over a one-month period. The 5-day SMA line is shown in orange, while the closing prices are illustrated in blue. The initial trend shows a rising SMA indicating an upward trend in prices until late July. However, towards the end of July and beginning of August, there is a crossover where the price line dips below the SMA, suggesting a potential bearish trend. The price line continues to descend sharply while the SMA follows, although with a lag due to its averaging nature. A subsequent crossover occurs early in August where the price rises above the SMA again, indicating a possible bullish reversal, but then quickly declines below the SMA again around August 10th. The current price remains below the SMA, suggesting a continuation of the bearish trend.",
+        "Status": "Sell"
+    },
+    "Line Chart Analysis Report": {
+        "Support_Price": "56000",
+        "Consolidation_Points_Price": "60000",
+        "Major_Resistance_Price": "68000",
+        "Psychological_Break_Price": "60000",
+        "Immediate_Resistance": "64000"
+    },
+    "Overall_Summary_Report": {
+        "Summary": "Based on the data provided, Bitcoin (BTCUSD) is currently undervalued, with a price of $59,190.03 below the year high of $73,750.07 and the average price over the last 200 days of $62,082.08. Technical analysis indicates that the market is in a downtrend but shows signs of potential reversal, with a bullish hammer pattern observed around August 8th. There has been a notable volume spike on August 13th, suggesting strong buying pressure. Insights point towards potential buying opportunities, although a risk assessment recommends setting a stop-loss just below $55,000. The sentimental analysis highlights positive developments such as a significant investment in El Salvador's Bitcoin City project and the positive view on Bitcoin by the Tether CEO.",
+        "Status": "Neutral"
+    }
+}
