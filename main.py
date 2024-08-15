@@ -19,15 +19,16 @@ app.add_middleware(
 
 @app.get("/analyze/{coin_name}")
 async def analyze_crypto(coin_name: str):
-    ca = Crypto_Analysis()
-    ca.fundamental_analysis(coin_name)
-    ca.technical_analysis()
-    ca.create_sma_chart(coin_name)
-    ca.moving_average()
-    ca.sentiment_analysis(coin_name)
-    ca.create_line_chart(coin_name)
-    ca.closing_chart_analysis()
-    ca.generate_summary()
+    # ca = Crypto_Analysis()
+    # ca.fundamental_analysis(coin_name)
+    # ca.create_candlestick_chart(coin_name)
+    # ca.technical_analysis()
+    # ca.create_sma_chart(coin_name)
+    # ca.moving_average()
+    # ca.sentiment_analysis(coin_name)
+    # ca.create_line_chart(coin_name)
+    # ca.closing_chart_analysis()
+    # ca.generate_summary()
 
     # Read the summary.json file and return its contents as a dictionary
     with open("summary.json", "r") as json_file:

@@ -1,9 +1,9 @@
 {
-    "Line Chart Analysis Report": {
-        "Support_Price": "56000",
-        "Consolidation_Points_Price": "60000",
-        "Major_Resistance_Price": "68000",
-        "Psychological_Break_Price": "60000",
-        "Immediate_Resistance": "64000"
+    "Line_Chart_Analysis_Report": {
+        "Support_Price": "2400",
+        "Consolidation_Points_Price": "3200",
+        "Major_Resistance_Price": "3400",
+        "Psychological_Break_Price": "3000",
+        "Immediate_Resistance": "2800"
     }
 }

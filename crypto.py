@@ -4,6 +4,7 @@ from openai import OpenAI
 import json
 import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter
+import mplfinance as mpf
 import pandas as pd
 import base64
 from dotenv import load_dotenv
@@ -87,7 +88,7 @@ class Crypto_Analysis:
 
 
             output = {
-            "Fundamental Analysis Report": {
+            "Fundamental_Analysis_Report": {
                 "values":{
 
                 "symbol": data[0]["symbol"],
@@ -266,6 +267,72 @@ class Crypto_Analysis:
             plt.savefig("line_chart.jpeg")
         else:
             raise Exception(f"Failed to retrieve data. Status code: {response.status_code}")
+        
+
+    def create_candlestick_chart(self, coin_name):
+        """Create a candlestick chart for the given coin"""
+        token = self.get_symbol(coin_name)
+        api_url = f'https://financialmodelingprep.com/api/v3/historical-price-full/{token}?apikey=ba164bccb40cdf9d0adc2a9a8cb39060'
+
+        # Make a GET request to the API endpoint
+        response = requests.get(api_url)
+
+        # Check if the request was successful (status code 200)
+        if response.status_code == 200:
+        
+            data = response.json()
+
+            # Assuming data is already defined and contains the historical data
+            historical_data = data.get('historical', [])
+
+            # Create a DataFrame from the data
+            df = pd.DataFrame(historical_data)
+            df['date'] = pd.to_datetime(df['date'])
+            df = df.sort_values('date')
+            df.set_index('date', inplace=True)
+
+            # Get the last 30 days of data
+            last_30_days_data = df.tail(30)
+
+            # Create a custom style for the candlestick chart
+            custom_style = mpf.make_mpf_style(
+                base_mpl_style='default',
+                rc={'font.size': 8},
+                marketcolors=mpf.make_marketcolors(
+                    up='lime',
+                    down='red',
+                    wick={'up':'lime', 'down':'red'},
+                    volume='skyblue'
+                )
+            )
+
+            # Create a figure with 2 subplots
+            fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 12), gridspec_kw={'height_ratios': [2, 1]})
+
+            # Plot the candlestick chart using the last 30 days of data
+            mpf.plot(last_30_days_data, type='candle', style=custom_style, ax=ax1, volume=False)
+            ax1.set_title(f'{token} Price', fontsize=16)
+            ax1.set_ylabel('Price', fontsize=12)
+
+            # Plot the volume bar chart using the last 30 days of data
+            ax2.bar(last_30_days_data.index, last_30_days_data['volume'], width=0.8, align='center', color='skyblue', edgecolor='navy')
+            ax2.set_title(f'{token} Trading Volume', fontsize=16)
+            ax2.set_xlabel('Date', fontsize=12)
+            ax2.set_ylabel('Volume', fontsize=12)
+
+            # Format x-axis for volume chart
+            ax2.xaxis.set_major_formatter(DateFormatter('%Y-%m-%d'))
+            plt.setp(ax2.xaxis.get_majorticklabels(), rotation=45, ha='right')
+
+            # Format y-axis labels for volume chart
+            ax2.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'{x/1e9:.1f}B'))
+
+            # Add grid lines to volume chart
+            ax2.grid(axis='y', linestyle='--', alpha=0.7)
+
+            # Adjust layout and display the plot
+            plt.tight_layout()
+            plt.savefig('coin_screenshot.jpeg')
         
     def create_sma_chart(self, coin_name):
         token = self.get_symbol(coin_name)

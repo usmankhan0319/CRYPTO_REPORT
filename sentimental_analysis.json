@@ -2,32 +2,20 @@
     "Sentimental_Analysis_Report": {
         "Top_Stories": [
             {
-                "Title": "Turkish Conglomerate $1.6 Billion Investment Ignites El Salvador's Bitcoin City Plan",
-                "Text": "El Salvador secures $1.6 billion investment from Turkey's Yilport Holding for Bitcoin City project."
+                "Title": "Jump Trading Counterweighs as Ethereum ETFs Set Pace for ETH Recovery",
+                "Text": "Ethereum price is recovering with ETF demand, despite selling pressure from institutions."
             },
             {
-                "Title": "Runes protocol struggles with fee revenue as Bitcoin's conservative framework limits growth",
-                "Text": "Runes protocol faces limitations due to Bitcoin infrastructure, affecting fee revenue."
-            },
-            {
-                "Title": "Bitcoin Can Resist the \u2018Wrath of God' Says Tether CEO Paolo Ardoino \u2013 Here's What He Means",
-                "Text": "Tether CEO believes geopolitical tensions will increase demand for scarce assets like Bitcoin."
+                "Title": "Ethereum Price To Hit New All-Time High If This Happens: Crypto Analyst",
+                "Text": "Crypto analyst predicts Ethereum could reach a new all-time high with a price range analysis."
             }
         ],
         "Latest_Stories": [
             {
-                "Title": "Bitcoin Likely to Fall by $5K Than Rise by Same Amount: Analyst",
-                "Text": "Analyst predicts Bitcoin market to fall due to seller dominance."
-            },
-            {
-                "Title": "Aurora Brings Bitcoin Data to NEAR and Prepares to Bridge BTC",
-                "Text": "Aurora Labs releases Bitcoin Light Client and Relayer to bring Bitcoin closer to multi-chain landscape."
-            },
-            {
-                "Title": "$600 Million in Bitcoin Disappear as Whales Go Bearish",
-                "Text": "Bitcoin faces pressure around $59,000 as whales turn bearish."
+                "Title": "The Ethereum L2 ecosystem records 12.4 million transactions in 24 hours",
+                "Text": "Ethereum's layer-2 scaling solutions ecosystem achieves a record high of over 12 million transactions in under 24 hours."
             }
         ],
-        "Summary": "Important stories include a significant investment in El Salvador's Bitcoin City project, challenges faced by Runes protocol due to Bitcoin's infrastructure, and Tether CEO's positive view on Bitcoin. Overall sentiment seems positive with developments around investments and technology advancements."
+        "Summary": "Title: Ethereum (ETH) Whale Purchase New Cryptocurrency At $0.001777 For PEPE-Like Gains\nText: An Ethereum whale invests in a new cryptocurrency at $0.001777, drawing comparisons to Pepecoin's success.\n        \n\nThe news articles highlight bullish activities in the Ethereum market, with significant investments and positive price predictions indicating a potential price increase. The overall sentiment is positive, reflecting optimism and growth potential for Ethereum."
     }
 }

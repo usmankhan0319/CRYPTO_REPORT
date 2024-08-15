@@ -1,25 +1,25 @@
 {
     "Fundamental Analysis Report": {
         "values": {
-            "symbol": "BTCUSD",
-            "name": "Bitcoin USD",
-            "price": 59190.03,
-            "changesPercentage": -0.28309,
-            "change": -168.036,
-            "dayLow": 58402.01,
-            "dayHigh": 60000,
-            "yearHigh": 73750.07,
-            "yearLow": 24930.297,
-            "marketCap": 1168365971017.08,
-            "priceAvg50": 61827.68,
-            "priceAvg200": 62082.08,
-            "volume": 35850670091.528824,
-            "avgVolume": 29738009593,
-            "open": 59358.066,
-            "previousClose": 59358.066,
-            "sharesOutstanding": 19739236,
-            "timestamp": 1723556621
+            "symbol": "ETHUSD",
+            "name": "Ethereum USD",
+            "price": 2621,
+            "changesPercentage": -1.57075,
+            "change": -41.8264,
+            "dayLow": 2589.39,
+            "dayHigh": 2676.4,
+            "yearHigh": 4092.2842,
+            "yearLow": 1523.2375,
+            "marketCap": 315246121840,
+            "priceAvg50": 3132.9336,
+            "priceAvg200": 3233.875,
+            "volume": 14779312749.762362,
+            "avgVolume": 16870443525,
+            "open": 2662.8264,
+            "previousClose": 2662.8264,
+            "sharesOutstanding": 120277040,
+            "timestamp": 1723713069
         },
-        "Summary": "Based on the data provided, Bitcoin (BTCUSD) is currently undervalued. The price of $59,190.03 is below the year high of $73,750.07 and the average price over the last 200 days of $62,082.08. This suggests there may be room for growth in the price of Bitcoin."
+        "Summary": "Based on the provided data, Ethereum (ETHUSD) appears to be undervalued. The current price of $2621 is below the 50-day average price of $3132.9336 and the 200-day average price of $3233.875. Additionally, the year high for Ethereum was $4092.2842, indicating potential room for growth."
     }
 }
