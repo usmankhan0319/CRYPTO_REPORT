@@ -1,14 +1,27 @@
 {
-    "builds": [
-      {
-        "src": "main.py",
-        "use": "@vercel/python"
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python",
+      "config": {
+        "exclude": [
+          "mplfinance/**",
+          "plotly/**",
+          "matplotlib/**",
+          "tests/**",
+          "docs/**",
+          "__pycache__/**",
+          "*.pyc",
+          "*.pyo"
+        ]
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "main.py"
-      }
-    ]
-  }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ]
+}
+
